@@ -1,0 +1,192 @@
+input{
+    box-shadow: none !important;
+    margin-top: 10px;
+    border: 1px solid black !important; 
+}
+h2{
+    font-size: 30 px !important;
+    padding: 10px;
+    font-weight: bold !important;
+    text-align: center;
+}
+button{
+    margin-top : 10px;
+}
+.ba{
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+margin-top: 40px !important;
+border-radius: 5px !important;
+margin-left: 20px !important;
+height: 430px;
+width: 420px;
+display: inline-block;
+}
+
+.landing1{
+    /* background-color: black !important; */
+    /* height: 100vh-20px; */
+    background-image: url('../components/images/image.jpg');
+    opacity: 1;
+    padding-top:100px;
+    
+    object-fit: cover;
+    height: 100vh;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+    
+    
+}
+
+.img2{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background: linear-gradient( rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.8));
+    /* background-color: rgb(0,0,0); Fallback color */
+    /* background-color: rgba(0,0,0,0.4); Black w/opacity/see-through */
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.register{
+    width: 600px !important;
+    height: 500px;
+    background-color: white !important;
+    box-shadow: 20px black !important;
+    border-radius: 10px;
+    margin-top: 108px;
+    margin-left: 450px;
+    box-shadow: rgba(219, 217, 217, 0.35) 0px 5px 15px;
+    /* padding-top: 12px; */
+}
+.but{
+    margin-left: 70px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    width: 450px;
+    height: 50px;
+    font-weight: bold;
+    margin-top: 20px !important;
+    border:2px solid black;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    font-size: 15px;
+}
+.boxx{
+    width: 450px !important;
+    height: 40px !important;
+    padding-left: 10px;
+    margin-left: 70px;
+    margin-top: 20px !important;
+    border: 2px solid black !important;
+}
+
+.jeet{
+    padding-top: 40px !important;
+}
+
+.landing2{
+    /* background-color: black !important; */
+    /* height: 100vh-20px; */
+    background-image: url('../components/images/bg1.jpg');
+    padding-top:100px;
+    background-color: rgb(246, 238, 238);
+    object-fit: cover;
+    height: 100vh;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+    
+    
+}
+
+.image3{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background: linear-gradient( rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.5));
+    /* background-color: rgb(0,0,0); Fallback color */
+    /* background-color: rgba(0,0,0,0.4); Black w/opacity/see-through */
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.register1{
+    width: 600px !important;
+    height: 350px;
+    background-color: white !important;
+    box-shadow: 20px black !important;
+    border-radius: 10px;
+    
+    margin-top: 155px;
+    margin-left: 465px;
+    box-shadow: rgba(248, 244, 244, 0.35) 0px 5px 15px;
+}
+
+.jeet1{
+    padding-top: 40px !important;
+}
+.but1{
+    margin-left: 70px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    width: 450px;
+    height: 50px;
+    font-weight: bold;
+    margin-top: 20px !important;
+    border:2px solid black;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    font-size: 15px;
+}
+.boxx1{
+    width: 450px !important;
+    height: 40px !important;
+    padding-left: 10px;
+    margin-left: 70px;
+    margin-top: 25px !important;
+    border: 2px solid black !important;
+}
+
+.rbtn{
+    
+    display: flex;
+    margin-left: 75px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    cursor: pointer;
+}
+.ibtn{
+    width: 20px !important;
+    height: 10px;
+    font-size: 190px;
+    margin-right: 18px;
+    margin-top: -4px !important;
+    
+}
+.bbtn{
+    
+    width: 20px !important;
+    height: 10px;
+    font-size: 190px;
+    margin-right: 18px;
+    margin-top: -4px !important;
+    
+}
+.radi{
+    display: flex;
+    margin-right: 70px;
+    height: 30px;
+    font-weight: bold !important;
+    
+}
+.radio{
+    display: flex;
+    font-weight: bold !important;
+    
+}

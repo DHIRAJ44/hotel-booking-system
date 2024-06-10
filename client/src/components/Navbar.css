@@ -1,0 +1,16 @@
+.navbar{
+    background-color: black !important;
+}
+.nav-link{
+    color:white !important;
+}
+.navbar-brand{
+    color:white !important;
+}
+
+.navbar-nav{
+margin-left: auto !important;
+}
+.dropdown-toggle{
+border: 0px solid black !important;
+}
