@@ -222,10 +222,10 @@ export function Addroom() {
     try {
       setloading(true);
       const result = axios.post(
-        "http://localhost:3000/api/rooms/addroom",
-        newroom
+        "http://localhost:3000/api/products/addroom",
+        {newroom},
+        { withCredentials: true },
       );
-      console.log(result.data);
       setloading(false);
       Swal.fire("congrats", "your new room added successfully", "success").then(
         (result) => {
@@ -247,9 +247,9 @@ export function Addroom() {
           type="text"
           className="form-control"
           placeholder="room name"
-          value={rooms}
+          value={name}
           onChange={(e) => {
-            setrooms(e.target.value);
+            setname(e.target.value);
           }}
         ></input>
         <input

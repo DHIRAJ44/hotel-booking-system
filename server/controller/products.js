@@ -31,7 +31,7 @@ const getallroomstesting = async (req, res) => {
 
 const getaddroom=async(req,res)=>{
   try{
-      const newroom = new Room(req.body)
+      const newroom = new Room(req.body.newroom)
       await newroom.save()
       res.send('new room added successfully')
   }catch(error){
